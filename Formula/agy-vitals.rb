@@ -1,23 +1,23 @@
 class AgyVitals < Formula
   desc "Real-time macOS Notch, Desktop Panel & CLI Statusline for Google Antigravity"
   homepage "https://github.com/2fa0/agy-vitals"
-  version "0.5.4"
+  version "0.5.5"
 
   on_macos do
     depends_on arch: :arm64
 
-    url "https://github.com/2fa0/agy-vitals/releases/download/v0.5.4/agy-statusline-macos-arm64.tar.gz"
-    sha256 "80ff65f95d4b080f1393ea7315c113034f3b7674a74f9a6d2d68d79b66f2f437"
+    url "https://github.com/2fa0/agy-vitals/releases/download/v0.5.5/agy-statusline-macos-arm64.tar.gz"
+    sha256 "abf6e8a48bda637bfbbbd88ee07523ce0717a49b54e3efa8554951e1be6f27f1"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/2fa0/agy-vitals/releases/download/v0.5.4/agy-statusline-linux-x64.tar.gz"
-      sha256 "6003a4fbde5cf8dd5a37c7ca0bbe3f8f8642a789db53f7e68ec8afdfb2383063"
+      url "https://github.com/2fa0/agy-vitals/releases/download/v0.5.5/agy-statusline-linux-x64.tar.gz"
+      sha256 "c7b80b159071c800d44242a91f780fa0146883e88309894ea0e426c6e453d17c"
     end
     on_arm do
-      url "https://github.com/2fa0/agy-vitals/releases/download/v0.5.4/agy-statusline-linux-arm64.tar.gz"
-      sha256 "b1bb17fd2f5f75bb30ce91ace9c406ed63af58210bbdca883d6451af58966f94"
+      url "https://github.com/2fa0/agy-vitals/releases/download/v0.5.5/agy-statusline-linux-arm64.tar.gz"
+      sha256 "acaf1c0755a1ac1459597a2273b3932e878fc98a27e762ea3ea262d6710e23fe"
     end
   end
 
